@@ -1,0 +1,166 @@
+
+body {
+    background-color: #F7F4F0; /* Fondo general crema súper suave y cálido */
+    color: #4A4238;
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-serif {
+    font-family: 'Playfair Display', serif;
+}
+
+.brand-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #ffffff !important;
+}
+
+/* 1. BARRA DE NAVEGACIÓN CAFÉ ELEGANTE */
+.bg-light-custom, .navbar {
+    background-color: #4A3B32 !important; /* Barra superior café chic */
+}
+
+.navbar-nav .nav-link {
+    color: #F7F4F0 !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E6C594 !important; /* Tono vainilla/dorado al pasar el mouse */
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* 2. BOTONES */
+.btn-primary-custom {
+    background-color: #705342;
+    color: #FDFBF7;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #563E30;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+}
+
+.btn-outline-custom {
+    border: 1.5px solid #705342;
+    color: #705342;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-custom:hover {
+    background-color: #e49b71;
+    color: #FFF;
+}
+
+/* 3. SECCIONES CON FONDOS ALTERNADOS (ADIÓS BLANCO HORRIBLE) */
+#inicio {
+    background-color: #c1edff;
+}
+
+#historia {
+    background-color: #F3EFEA !important; /* Fondo crema tostado aesthetic */
+}
+
+#postres {
+    background-color: #EFE6DC !important; /* Fondo tono café con leche muy suave */
+}
+
+#galletas {
+    background-color: #F8F5F0 !important; /* Fondo marfil claro */
+}
+
+#pasteles {
+    background-color: #EFE6DC !important; /* Alternando tono café con leche */
+}
+
+/* 4. TARJETAS (CARDS) CON ESTILO Y EFECTOS */
+.card-custom {
+    background-color: #c1edff; /* Tarjetas blancas limpias sobre los fondos de color */
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgb(247, 231, 222) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px #421c0b !important;
+}
+
+.card-custom img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Zoom elegante en las imágenes */
+.card:hover img, .hero-img:hover, #historia img:hover {
+    transform: scale(1.08); 
+}
+
+/* Contenedor de imagen con efecto limpio */
+.overflow-hidden-custom {
+    overflow: hidden;
+    border-radius: 14px 14px 0 0;
+}
+
+/* 5. BADGES Y DETALLES */
+.bg-beige {
+    background-color: #E8D8C8 !important;
+    color: #4A3B32 !important;
+}
+
+.border-color-custom {
+    border-color: #C2A68D !important;
+}
+
+/* 6. BANNER DE FRASE */
+.banner-frase {
+    background: linear-gradient(rgba(54, 24, 3, 0.75), rgba(74, 59, 50, 0.75)), url('imagenes/pastel1.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FBF9F5;
+}
+
+/* 7. PIE DE PÁGINA (FOOTER) AESTHETIC */
+.bg-dark-custom {
+    background-color: #C2A68D !important; /* Café profundo muy elegante */
+    color: #D8CEC4 !important;
+}
+
+.bg-dark-custom h4 {
+    color: #FDFBF7 !important;
+}
+
+.bg-dark-custom a:hover {
+    color: #E6C594 !important;
+}
+.card-custom img {
+    width: 100%; 
+    height: 220px;
+    object-fit: cover;
+}
+/* Zoom grande y elegante en las imágenes */
+.card img, .hero-img, #historia img {
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.card:hover img, .hero-img:hover, #historia img:hover {
+    transform: scale(1.15); /* Crece un 15% al pasar el mouse */
+}
